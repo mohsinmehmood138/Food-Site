@@ -1,0 +1,49 @@
+.navbar{
+justify-content: space-around;
+/* background:repeating-linear-gradient(317deg ,rgb(190, 118, 203) 30%,rgb(206, 67, 211)70%,rgb(162, 50, 203)50%); */
+/* background:repeating-linear-gradient(317deg,black 30%, tomato 70%, black 50%); */
+/* background-image: repeating-linear-gradient(43deg, #dc5252 , #cb6262 320px), repeating-linear-gradient(45deg,  #d38f07 10px, #da3300 20px); */
+color: rgb(251, 251, 252);
+background: #7f0000;
+font-weight: bold;
+}
+.navbar:hover{
+    cursor: pointer;
+}
+.navbarimgbox{
+    width:100px ;
+    height:80px ;
+
+}
+
+.drawer{
+color:black;
+text-align: center;
+background:white !important;
+color:black;
+width:100%;
+height: 100%;
+
+}
+.drawerimg{
+width: 77px;
+margin-top: 36px;
+}
+.drawerlist{
+    text-align: center;justify-content: center;
+}
+.drawerlistitem:hover{
+color: #ffc300;
+}
+.navright{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 200px;
+}
+.navrighticons{
+    margin-left: 8px;
+}
+.createaccount:hover{
+        cursor: pointer;
+}

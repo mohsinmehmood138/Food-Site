@@ -1,0 +1,60 @@
+.chef{
+  width: 100%;
+  
+}
+
+.swipermySwiperchef {
+  width: 95%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+}
+
+.swiperslidechef {
+  background-position: center;
+  background-size: cover;
+  width: 300px !important;
+  height: 350px !important;
+  border-radius: 10px !important;
+  filter: blur(6px);
+  background: white;
+  display: block;
+  color:rgb(221, 16, 16)
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+ 
+}
+.MuiAvatar-img{
+  margin-top:22px;
+  object-fit: cover;
+  height: 142px !important;
+  background-color: rgb(182, 92, 92);
+}
+
+.swiper-slide-active{
+  filter: blur(0px);
+
+}
+.stafficonbox{
+  color:rgb(221, 16, 16);
+  margin-top: 10px;
+  
+}
+.stafficon{
+margin-left: 7px;
+}
+.stafficonbox:hover{
+  cursor: pointer;
+  }
+@media only screen and (min-width: 572px) and (max-width: 672px) {
+    
+  .chef{
+      margin-top: 50px;
+      
+  }
+}
+

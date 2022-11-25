@@ -1,0 +1,95 @@
+body{
+  background-color: #7f0000;
+  /* cursor: url(file:///C:/Users/Mohsin%20Randhawa/Downloads/burger-svgrepo-com.svg), auto !important; */
+  
+}
+
+.swiper {
+    width: 100%;
+    height: 565px;
+    margin-top: 20px;
+  }
+
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-v {
+    background: red;
+  }
+  .homedoc{
+    padding: 50px 30px;
+    width: 50%;
+    color: white;
+  }
+  .homebtn{
+    
+    color:white;
+    margin-top:40px;
+    
+    
+  }
+  .DELICIOUS{
+
+  } 
+ 
+ 
+  @media only screen and (min-width: 340px) and (max-width: 600px) {
+    .homedoc{
+      width: 90%;
+      height: auto;
+      
+    }
+    .DELICIOUS{
+      font-size: 20px;
+    }
+    .homebtn{
+      margin: 0;
+      margin-top: 28px;
+    }
+  }  
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+  .homedoc{
+    width: 90%;
+    height: auto;
+    text-align: initial;
+  }
+  .homebtn{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+}
+@media only screen and (min-width: 900px) and (max-width: 1400px) {
+  .homedoc{
+    width: 50%;
+  }
+  
+}
+    
+    
+ 

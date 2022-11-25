@@ -1,0 +1,23 @@
+.cartnav{
+    background: #df0f0f !important
+}
+.cartbody{
+    
+
+}
+.catlist{
+    margin-right: 30px;
+    margin-top: -10px;
+}
+
+@media only screen and (min-width: 330px) and (max-width: 620px) {
+
+   .cartnav{
+    justify-content: space-between !important;
+    display: block;
+   }
+   .cartclear{
+    margin-left: 3px !important;
+   }
+
+}

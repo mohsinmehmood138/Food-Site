@@ -1,0 +1,40 @@
+.specialdish {
+  margin-top: 30px;
+}
+
+.specialdishitemdish {
+  width: 24%;
+  height: 97%;
+  /* border: 1px solid red; */
+}
+
+.specialdishitemdish:hover {
+  border: 1px solid red;
+
+}
+
+.specialswiper {
+  height: auto;
+ 
+}
+
+
+.swiper-slidespecial {
+  color: white;
+  background: transparent;
+  /* border: 1px solid rgb(32, 139, 134); */
+  display: block;
+  border-left: 1px solid white;
+}
+.swiper-slidespecial:hover {
+  color: white;
+  background: red;
+  border: none;
+}
+
+
+  
+  
+
+
+
